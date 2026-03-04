@@ -4,4 +4,5 @@
 body {
     font-family: "Open Sans";
     font-Size: 1.25rem;
+    @apply text-gray-800;
 }
