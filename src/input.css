@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans";
     font-Size: 1.25rem;
@@ -37,4 +41,12 @@ body {
 
 .button-negative {
     @apply hover:bg-red-300;
+}
+
+.panel {
+  display: none;
+}
+
+.panel:target {
+  display: block;
 }
