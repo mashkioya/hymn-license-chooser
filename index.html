@@ -12,16 +12,32 @@
         <h1 class="text-center text-5xl font-black pb-10">Escoge una licencia</h1>
         <div class="flex items-center pb-15 mb-15 border-b-2 border-b-gray-600">
             <img src="src/hand.png" alt="" class="opacity-70 pr-10">
-            <p class="font-medium">¡Gracias por tu interés en liberar tu canto! Nosotros estamos convencidos de que esta es la mejor forma de hacer llegar un canto a más hermanos, y de glorificar a Dios con nuestros talentos. Aunque todavía no hayas decidido si quieres liberar tu canto, puedes utilizar esta herramienta para explorar tus opciones.</p>    
+            <div class="font-medium">
+                <p class="mb-5">¡Gracias por tu interés en liberar tu canto! Nosotros estamos convencidos de que esta es la mejor forma de hacer llegar un canto a más hermanos, y de glorificar a Dios con nuestros talentos. Aunque todavía no hayas decidido si quieres liberar tu canto, puedes utilizar esta herramienta para explorar tus opciones.</p>    
+                <p>No somos abogados y esta página es solo para fines informativos.</p>
+            </div>
         </div>
 
-        <div class="question flex flex-col text-center">
-            <p class="font-bold pb-5 text-2xl mb-5">¿Estás dispuesto a permitir a cualquier persona copiar, distribuir, y proyectar tu canto, sin necesidad de pedirte permiso?</p>
-            <a href="" class="p-3 rounded-full mb-5 border-2 border-green-300 hover:bg-green-300 hover:border-white">¡Sí! Quiero liberar mi canto. Muéstrame mis opciones.</a>
-            <a href="" class="p-3 rounded-full mb-5 border-2 border-green-300 hover:bg-red-300 hover:border-white">No, prefiero mantener mi canto con “todos los derechos reservados”.</a>
+        <div class="question-box">
+            <p>¿Estás dispuesto a permitir a cualquier persona copiar, distribuir, y proyectar tu canto, sin necesidad de pedirte permiso?</p>
+            <a href="" class="button-positive">¡Sí! Quiero liberar mi canto. Muéstrame mis opciones.</a>
+            <a href="" class="button-negative">No, prefiero mantener mi canto con “todos los derechos reservados”.</a>
         </div>
 
-        
+        <div id="option1">
+            <div class="text-7xl text-center opacity-50 pb-7">&#8681;</div>
+
+            <div class="flex items-center pb-15">
+                <p class="flex-2 pr-10">Tu primera opción es <b>dedicar tu canto al dominio público</b>. Mientras que el derecho de autor tradicional <em>reserva</em> todos los derechos, la dedicación al dominio público <em>libera</em> todos los derechos, esencialmente convirtiendo tu canto en un regalo para la hermandad, sin restricciones.</p>
+                <p class="info flex-1 text-lg italic p-5 bg-gray-100 shadow rounded-2xl text-gray-600"><span class="info-icon text-4xl float-right not-italic opacity-25 pl-5">&#x1F6C8;</span> Una dedicación al dominio público no implica renunciar tu <b>autoría</b>. Aunque tu canto esté en el dominio público, nadie tiene derecho de pretender ser el autor y beneficiarse de tus derechos de autor. Si esta posibilidad te preocupa, puedes proteger tu autoría registrando tu derecho de autor con el gobierno, lo cual no te quita el derecho de dedicarlo al dominio público ni de liberarlo bajo una licencia libre.</p>
+            </div>   
+                
+            <div class="question-box">
+                <p>¿Quieres dedicar tu canto al dominio público, liberando todos los derechos?</p>
+                <a href="" class="button-positive">Sí, quiero que sea un regalo para la hermandad, sin restricciones.</a>
+                <a href="" class="button-negative">Quiero liberar mi canto, pero prefiero ver las opciones que ponen restricciones a su uso.</a>
+            </div>
+        </div>
 
     </div>
     <script src="src/script.js"></script>
