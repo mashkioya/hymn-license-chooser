@@ -12,7 +12,7 @@ body {
 }
 
 .explanation {
-    @apply flex pb-15;
+    @apply flex pb-15 mb-15 border-b-2 border-b-gray-600;
 }
 
 .explanation-left {

@@ -259,7 +259,11 @@ body {
   color: var(--color-gray-800);
 }
 .explanation {
+  margin-bottom: calc(var(--spacing) * 15);
   display: flex;
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 2px;
+  border-bottom-color: var(--color-gray-600);
   padding-bottom: calc(var(--spacing) * 15);
 }
 .explanation-left {
