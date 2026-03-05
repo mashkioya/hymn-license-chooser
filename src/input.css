@@ -12,15 +12,19 @@ body {
 }
 
 .explanation {
-
+    @apply flex items-center pb-15;
 }
 
-.info {
+.explanation-left {
+    @apply flex-2 pr-10;
+}
 
+.explanation-right {
+    @apply flex-1 text-lg italic p-5 bg-gray-100 shadow rounded-2xl text-gray-600;
 }
 
 .info-icon {
-
+    @apply text-4xl float-right not-italic opacity-25 pl-5;
 }
 
 .question-box {
@@ -43,10 +47,24 @@ body {
     @apply hover:bg-red-300;
 }
 
-.panel {
-  display: none;
+.disabled, .disabled:hover {
+    @apply bg-gray-300 cursor-default border-white opacity-60;
 }
 
-.panel:target {
+.arrow {
+    @apply text-7xl text-center opacity-50 pb-7;
+    position: absolute;
+    top: -4rem;
+    width: 100%;
+}
+
+.panel {
+  display: none;
+  position: relative;
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+
+.panel.open {
   display: block;
 }
