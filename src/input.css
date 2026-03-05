@@ -12,15 +12,20 @@ body {
 }
 
 .explanation {
-    @apply flex items-center pb-15;
+    @apply flex pb-15;
 }
 
 .explanation-left {
-    @apply flex-2 pr-10;
+    @apply flex-2 flex flex-col justify-evenly items-center pr-10;
 }
 
 .explanation-right {
     @apply flex-1 text-lg italic p-5 bg-gray-100 shadow rounded-2xl text-gray-600;
+}
+
+.cc-icon {
+    @apply shadow-sm shadow-gray-400;
+    width: 10rem;
 }
 
 .info-icon {
