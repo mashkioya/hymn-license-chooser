@@ -1,9 +1,19 @@
+const licenseChoices = {
+  by: null,
+  nc: null,
+  nd: null
+};
+
 document.addEventListener('click', function (e) {
   const btn = e.target.closest('[data-reveal]');
   if (!btn) return;
 
   const targetId = btn.dataset.reveal;
   const panel = document.getElementById(targetId);
+
+  if (targetId == "option4") {
+
+  }
 
   panel.classList.add('open');
   

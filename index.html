@@ -21,7 +21,7 @@
         <div class="question-box">
             <p>¿Estás dispuesto a permitir a cualquier persona copiar, distribuir, y proyectar tu canto, sin necesidad de pedirte permiso?</p>
             <a href="#option1" class="button-positive" data-reveal="option1">¡Sí! Quiero liberar mi canto. Muéstrame mis opciones.</a>
-            <a href="#option2" class="button-negative" data-reveal="option2">No, prefiero mantener mi canto con “todos los derechos reservados”.</a>
+            <a href="#choice1" class="button-negative" data-reveal="choice1">No, prefiero mantener mi canto con “todos los derechos reservados”.</a>
         </div>
 
         <div id="option1" class="panel">
@@ -30,15 +30,15 @@
             <div class="explanation">
                 <div class="explanation-left">
                     <p>Tu primera opción es <b>dedicar tu canto al dominio público</b>. Mientras que el derecho de autor tradicional <em>reserva</em> todos los derechos, la dedicación al dominio público <em>libera</em> todos los derechos, esencialmente convirtiendo tu canto en un regalo para la hermandad, sin restricciones.</p>
-                    <img src="src/cc-zero.svg" alt="Logotipo CC0" class="cc-icon">
+                    <img src="src/zero.svg" alt="ícono de dedicación al dominio público" class="cc-icon">
                 </div>
                 <div class="explanation-right"><span class="info-icon">&#x1F6C8;</span> Una dedicación al dominio público no implica renunciar tu <b>autoría</b>. Aunque tu canto esté en el dominio público, nadie tiene derecho de pretender ser el autor y beneficiarse de tus derechos de autor. Si esta posibilidad te preocupa, puedes proteger tu autoría registrando tu derecho de autor con el gobierno, lo cual no te quita el derecho de dedicarlo al dominio público ni de liberarlo bajo una licencia libre.</div>
             </div>
                 
             <div class="question-box">
                 <p>¿Quieres dedicar tu canto al dominio público, liberando todos los derechos?</p>
-                <a href="#option3" class="button-positive" data-reveal="option3">Sí, quiero que sea un regalo para la hermandad, sin restricciones.</a>
-                <a href="#option4" class="button-positive" data-reveal="option4">Quiero liberar mi canto, pero prefiero ver las opciones que ponen restricciones a su uso.</a>
+                <a href="#choice2" class="button-positive" data-reveal="choice2">Sí, quiero que sea un regalo para la hermandad.</a>
+                <a href="#option2" class="button-positive" data-reveal="option2">No, prefiero ver opciones con restricciones.</a>
             </div>
         </div>
 
@@ -46,11 +46,17 @@
             <div class="arrow">&#8681;</div>
 
             <div class="explanation">
-                <p class="explanation-left">Está bien, estás en todo tu derecho. Sin embargo, las licencias libres requieren como mínimo permitir que otros copien y compartan tu obra, así que ninguna licencia libre sería apropiada en tu caso.</p>
+                <div class="explanation-left">
+                    <p>Muy bien. La restricción más básica es la de la <b>atribución</b>, la cual significa que cualquier persona puede copiar, distribuir, y proyectar tu canto sin pedirte permiso, <strong>siempre y cuando aparezca tu nombre como autor</strong>.</p>
+                    <img src="src/by.svg" alt="ícono de atribución" class="cc-icon">
+                </div>
+                <div class="explanation-right"><span class="info-icon">&#x1F6C8;</span> Todas las licencias de Creative Commons (menos la dedicación al dominio público) incluyen la restricción de atribución.</div>
             </div>
-
+                
             <div class="question-box">
-                <a href="" class="button-positive">Volver al inicio</a>
+                <p>¿Quieres exigir atribución cuando se use tu canto?</p>
+                <a href="#choice2" class="button-positive" data-reveal="choice2" data-choice="">No, prefiero dedicar mi canto al dominio público.</a>
+                <a href="#option3" class="button-positive" data-reveal="option3">Sí, ayúdame a escoger la licencia apropiada.</a>
             </div>
         </div>
 
@@ -58,7 +64,86 @@
             <div class="arrow">&#8681;</div>
 
             <div class="explanation">
-                <p>¡Excelente elección!</p>
+                <div class="explanation-left">
+                    <p>La siguiente restricción que puedes escoger restringe el <b>uso comercial</b> de tu canto. En otras palabras, cualquier persona podrá copiar, distribuir, y proyectar tu canto sin pedirte permiso, <strong>siempre y cuando no se venda</strong>.</p>
+                    <img src="src/nc.svg" alt="ícono de no-comercial" class="cc-icon">
+                </div>
+            </div>
+                
+            <div class="question-box">
+                <p>¿Quieres prohibir uso comercial de tu canto?</p>
+                <a href="#option4" class="button-positive" data-reveal="option4">No quiero prohibir uso comercial.</a>
+                <a href="#option4" class="button-positive" data-reveal="option4">Sí, quiero prohibir uso comercial.</a>
+            </div>
+        </div>
+
+        <div id="option4" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <div class="explanation-left">
+                    <p>Otra restricción que puedes escoger prohíbe <b>derivaciones</b>. En otras palabras, cualquier persona podrá copiar, distribuir, y proyectar tu canto sin pedirte permiso, <strong>siempre y cuando no se modifique</strong>.</p>
+                    <img src="src/nd.svg" alt="ícono de no-derivados" class="cc-icon">
+                </div>
+                <div class="explanation-right"><span class="info-icon">&#x1F6C8;</span> Algunos escogen esta opción por miedo a que alguien corrompa su canto o le meta falsa doctrina. Aunque eso puede pasar, preferimos dejarlo en las manos de Dios, no del gobierno. Además, prohibir modificaciones también impide traducir el canto a otros idiomas. Hoy pueden pedirte permiso, pero ¿qué pasará cuando ya no estés, o cuando quienes quieran traducirlo ni siquiera hablen español?</div>
+            </div>
+                
+            <div class="question-box">
+                <p>¿Quieres prohibir modificaciones a tu canto?</p>
+                <a href="#option5" class="button-positive" data-reveal="option5">No quiero prohibir modificaciones.</a>
+                <a href="#option5" class="button-positive" data-reveal="option5">Sí, quiero prohibir modificaciones.</a>
+            </div>
+        </div>
+
+        <div id="choice6" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <p>Has elegido la licencia CC BY-NC-ND. No es la mejor elección pero bueno</p>
+            </div>
+        </div>
+
+        <div id="choice5" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <p>Has elegido la licencia CC BY-ND. Buena elección, supongo.</p>
+            </div>
+        </div>
+
+        <div id="choice4" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <p>Has elegido la licencia CC BY-NC. Buena elección, supongo.</p>
+            </div>
+        </div>
+
+        <div id="choice3" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <p>Has elegido la licencia CC BY. ¡Excelente elección!</p>
+            </div>
+        </div>
+
+        <div id="choice2" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation">
+                <p>Has elegido dedicar tu canto al dominio público. ¡Excelente elección!</p>
+            </div>
+        </div>
+
+        <div id="choice1" class="panel">
+            <div class="arrow">&#8681;</div>
+
+            <div class="explanation border-none pb-0">
+                <p class="explanation-left">Está bien, estás en todo tu derecho. Sin embargo, las licencias libres requieren como mínimo permitir que otros copien y compartan tu obra, así que ninguna licencia libre sería apropiada en tu caso.</p>
+            </div>
+
+            <div class="question-box">
+                <a href="" class="button-positive">Volver al inicio</a>
             </div>
         </div>
 
